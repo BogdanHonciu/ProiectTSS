@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+
+--verbose: showing 10 out of 14 test levels
+--fixtures-per-test: maximum number of fixtures per test is 1
+--testrunuid: generated unique identifier for this test run
+--threads: number of threads used for running tests
+--junitxml: write test results to a JUnit XML file at the given path
+--cov: measure coverage for specified source files
+--cov-report: choose a coverage report type to generate
+
+collected 15 items
+
+testare_functionala.py::test_addition PASSED                             [  6%]
+testare_functionala.py::test_subtraction PASSED                          [ 13%]
+testare_functionala.py::test_multiplication PASSED                       [ 20%]
+testare_functionala.py::test_division PASSED                             [ 26%]
+testare_functionala.py::test_clear PASSED                                [ 33%]
+testare_functionala.py::test_negative_numbers PASSED                     [ 40%]
+testare_functionala.py::test_decimal_numbers PASSED                      [ 46%]
+testare_functionala.py::test_multiple_numbers PASSED                     [ 53%]
+testare_functionala.py::test_operator_priority PASSED                    [ 60%]
+testare_functionala.py::test_large_numbers PASSED                        [ 66%]
+testare_functionala.py::test_small_numbers PASSED                        [ 73%]
+testare_functionala.py::test_float_operations PASSED                     [ 80%]
+testare_functionala.py::test_nan_inf_operations PASSED                   [ 86%]
+testare_functionala.py::test_float_overflow PASSED                       [ 93%]
+testare_functionala.py::test_round_float PASSED                          [100%]
+
+============================== 15 passed in 0.50s ===============================

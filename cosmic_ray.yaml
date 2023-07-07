@@ -1,0 +1,21 @@
+execution:
+  module: testare_functionala
+  function: test_all
+  args: []
+  kwds: {}
+
+baseline: 50
+
+mutator:
+  module: cosmic_ray.mutating
+  class: PythonMutator
+  config:
+    exclude_decorators: ['pytest.fixture']
+
+# The path of the module you want to test
+paths:
+- ./calculator.py
+
+# The tests for that module
+tests:
+- ./testare_functionala.py
